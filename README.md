@@ -1,27 +1,45 @@
-# PricingComponent
+# Front-end Style Guide
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.0.
+## Layout
 
-## Development server
+The designs were created to the following widths:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- Mobile: 375px
+- Desktop: 1440px
 
-## Code scaffolding
+## Colors
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Primary
 
-## Build
+- Dark Violet: hsl(256, 26%, 20%)
+- Grayish Blue: hsl(216, 30%, 68%)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+### Neutral
 
-## Running unit tests
+- Very Dark Violet: hsl(270, 9%, 17%)
+- Dark Grayish Violet: hsl(273, 4%, 51%)
+- Very Light Gray: hsl(0, 0%, 98%)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Typography
 
-## Running end-to-end tests
+### Body Copy
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice.
+- Font size: 16px
 
-## Further help
+### Headings
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Family: [DM Serif Display](https://fonts.google.com/specimen/DM+Serif+Display)
+- Weights: 400
+
+### Body
+
+- Family: [Karla](https://fonts.google.com/specimen/Karla)
+- Weights: 400, 700
+
+## Icons
+
+You can use either use the social icons provided or load in a font icon library. Some library suggestions can be found below:
+
+- [Font Awesome](https://fontawesome.com)
+- [IcoMoon](https://icomoon.io)
+- [Ionicons](https://ionicons.com)
