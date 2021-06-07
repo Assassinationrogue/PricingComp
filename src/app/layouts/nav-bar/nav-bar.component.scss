@@ -1,0 +1,24 @@
+@import '../../../scss/abstract/variables';
+
+.header{
+
+    &__wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 0 2em;
+        padding: 1.5em 2em;
+        &-navbar{
+            &--list{
+                display: flex;
+                flex-direction: row;
+                float: right;
+
+                &-item:not(:last-child){
+                    margin: 0 1.8em;
+                }   
+            }
+        }
+    }
+
+    
+}
