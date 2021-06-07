@@ -1,0 +1,61 @@
+@import '../../../scss/abstract/variables';
+
+
+
+.banner{
+    position: relative;
+    background-color: $color-dark_violet;
+    height: 650px;
+    width: 100%;
+    &__binder{
+        display: flex;
+        margin: $wrapper-margin;
+        justify-content: space-between;
+        padding: 1.5em 2em;
+         //background-color: wheat;
+    }
+    &-img{
+        display: block;
+        position: relative;
+        margin-top:8em;
+        padding-bottom: 3em;
+    }
+
+    &__text{
+       // background-color: aqua;
+        margin-top: 8em ;
+        padding: 0 5em 0 0;
+
+        
+        &--heading{
+            margin-bottom: .5em;
+            
+        }
+
+        &--para{
+            margin-bottom: 2em;
+        }
+        
+    }
+
+    
+
+}
+
+.topline{
+    margin-bottom: 5rem;
+    width: 25%;
+    border: 2px solid $color-neutral-light_grey;
+}
+
+.banner-svg{
+    position:absolute;
+    top: 65%;
+
+}
+
+#banner-svg{
+    position: absolute;
+    top: 0;
+    left: 71%;
+}

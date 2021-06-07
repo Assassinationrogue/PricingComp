@@ -21,8 +21,40 @@ body{
         &-link{
             text-decoration: none;
             color: $color-neutral-grayish_violet;
+            transition: all .3s;
+            &:hover{
+                color: $color-neutral_dark_violet;
+            }
         }
 
+
         
+    }
+}
+
+#item-button{
+    color: $color-dark_violet;
+    font-weight: 400;
+    
+}
+
+#item-button:hover{
+    color: $color-neutral-light_grey;
+    font-weight: 400;
+}
+
+.banner__text{
+    color: $color-neutral-light_grey;
+    &--heading{
+        font-size: 3em;
+    }
+}
+
+.banner__text--button{
+    color: $color-neutral-light_grey;
+    text-decoration: none;
+    transition: all .3s;
+    &:hover{
+        color: $color-neutral_dark_violet;
     }
 }

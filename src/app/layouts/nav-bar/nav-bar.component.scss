@@ -1,11 +1,11 @@
 @import '../../../scss/abstract/variables';
 
 .header{
-
+    background-color: $color-neutral-light_grey;
     &__wrapper{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        margin: 0 2em;
+        margin: $wrapper-margin;
         padding: 1.5em 2em;
         &-navbar{
             &--list{
@@ -15,10 +15,12 @@
 
                 &-item:not(:last-child){
                     margin: 0 1.8em;
-                }   
+                }
+                   
             }
         }
     }
 
     
 }
+

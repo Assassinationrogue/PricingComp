@@ -1,0 +1,29 @@
+
+#item-button{
+    background-color: transparent;
+    padding: 5px 10px;
+    border: 1px solid $color-dark_violet;
+    border-radius: 3px;
+    transition: all .3s;
+}
+
+#item-button:hover{
+    background-color:$color-dark_violet ;
+    padding: 5px 10px;
+    border: 1px solid $color-dark_violet;
+    border-radius: 3px;
+}
+
+.banner__text--button{
+    border: 2px solid $color-neutral-light_grey;
+    padding: .5em 1em;
+    background-color: transparent;
+    transition: all .3s;
+
+    &:hover{
+        border: 2px solid $color-neutral-light_grey;
+        padding: .5em 1em;
+        background-color: $color-neutral-light_grey;
+
+    }
+}
